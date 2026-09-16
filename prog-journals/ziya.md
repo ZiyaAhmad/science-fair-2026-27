@@ -1,8 +1,8 @@
 # Ziya's Progress Journal
 
 ## Sep 15, 2026
-**Duration: **
-**Time: 5:10pm - **
+**Duration: 1 hr**
+**Time: 5:10pm - 6:10pm**
 
 - Finally got dataset access!
     - Recieved GCP BigQuery access for the MIMIC-IV dataset
@@ -12,6 +12,13 @@
     - Made Google Doc on basics of SQL (what BigQuery uses for data stuff)
     - Added sql files folder + data exploration file copy pasted from BigQuery
         - all sql files should run in BigQuery to access the dataset w/ minimal time delay
+    - Got dataset breakdown + disease frequency + biomarkers
+        - Stored results in spreadsheet on Google Drive
+        - Notable items:
+            - labevents is enormous w/ 158 million rows (16 GB)
+            - diagnoses_icd has 6.36 million rows across 346.627 total patients
+                - on avg, ea/ patient has 17 disease codes
+        
 
 ## Sep 13, 2026
 **Duration: 1.5 hrs**
