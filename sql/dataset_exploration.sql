@@ -1,4 +1,4 @@
--- MUST RUN IN GCP BIGQUERY
+-- MUST RUN IN GCP BIGQUERY 
 -- overview of table sizes across the hosp schema
 SELECT table_id, row_count, size_bytes
 FROM `physionet-data.mimiciv_3_1_hosp.__TABLES__`
